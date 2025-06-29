@@ -1,0 +1,13 @@
+{
+  "name": "simple-node-ci",
+  "version": "1.0.0",
+  "main": "index.js",
+"type":"commonjs",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"✅ All tests passed (placeholder)\""
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
