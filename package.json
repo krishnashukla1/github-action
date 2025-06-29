@@ -2,12 +2,16 @@
   "name": "simple-node-ci",
   "version": "1.0.0",
   "main": "index.js",
-"type":"commonjs",
+  "type": "commonjs",
   "scripts": {
     "start": "node index.js",
-    "test": "echo \"✅ All tests passed (placeholder)\""
+  "test": "jest"
   },
   "dependencies": {
     "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "jest": "^30.0.3",
+    "supertest": "^7.1.1"
   }
 }

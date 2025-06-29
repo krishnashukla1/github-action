@@ -25,4 +25,10 @@ app.listen(PORT, () => {
 /*npm start
 http://localhost:3000
 http://localhost:3000/users
+
+
+npm install --save-dev supertest jest
+
+
+n> npm test
 */
